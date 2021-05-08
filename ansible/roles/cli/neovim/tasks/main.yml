@@ -1,0 +1,20 @@
+---
+# main task for neovim
+
+- name: NEOVIM - bat is present
+  become: "{{ should_be_root }}"
+
+  block:
+    - name: NEOVIM - neovim is present in debian
+      apt:
+        name: neovim
+        state: present
+        update_cache: yes
+        dpkg_options: "force-overwrite"
+      when: ansible_os_family in ['Debian', 'Pop!_OS']
+
+    - name: NEOVIM - install via homebrew
+      homebrew:
+        name: neovim
+        state: present
+      when: ansible_os_family in ['Darwin']

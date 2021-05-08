@@ -1,0 +1,11 @@
+---
+# main task for python
+
+- name: python, python packages, pipx, pipx packages are present
+
+  block:
+    - name: Ensure dependencies are present for python
+      import_tasks: dependencies.yml
+    
+    - name: install python, python packages, pipx, pipx packages
+      import_tasks: install.yml

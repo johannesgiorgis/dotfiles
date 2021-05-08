@@ -1,7 +1,11 @@
 .vscode/
+.idea/
 
 # ignore any log files
 *log
 
 # work zsh stuff
-zsh_work.symlink
+zsh_work
+
+# macos stuff
+.DS_Store

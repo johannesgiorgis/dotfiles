@@ -1,0 +1,12 @@
+---
+# main task for common-cli
+
+- name: common-cli are present
+  become: "{{ should_be_root }}"
+
+  block:
+    - name: common-cli packages are present
+      package:
+        name: "{{ item[ansible_pkg_mgr] | default(item['default']) }}"
+        state: latest
+      loop: "{{ common_packages }}"

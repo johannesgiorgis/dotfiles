@@ -1,0 +1,76 @@
+# TODO - Dotfiles V2
+
+- Install List
+    - [x] Conky
+    - [x] dropbox
+    - [x] zoom.us
+    - [x] Joplin
+    - [x] Kite
+    - [x] Slack
+    - [x] Snap
+        - [x] authy
+        - [x] Whatsdesk
+    - [x] PyCharm
+    - [x] Spotify
+    - [x] jq
+    - [x] csvkit
+    - [x] Sublime-text
+    - [x] Sublime-merge
+    - [x] hugo
+    - [x] brave-browser
+    - [x] youtube downloader + ffmpeg
+    - [x] flameshot
+    - [x] htop
+    - [x] ncdu
+    - [x] pandoc
+    - [x] rename
+    - [x] vlc
+    - [x] neofetch
+    - [x] shellcheck
+    - [x] chrome + extensions?
+    - [x] cowsay
+    - [x] fortune
+    - [x] docker
+    - [x] blueman - bluetooth manager
+    - [x] meld
+    - [x] mlocate
+    - [x] fbreader
+    - [x] lastpass
+    - [x] broot
+    - [x] diffstat
+    - [x] [fd-find](https://github.com/sharkdp/fd)
+    - [x] [ripgrep](https://github.com/BurntSushi/ripgrep)
+    - [x] gnome-tweaks
+    - [ ] firefox **in progress**
+    - [x] gawk
+    - [x] kazam
+    - [ ] cuda
+    - [ ] openssh (_in progress_)
+    - [x] solaar - logitech Unifying Receiver
+    - [x] sqlitebrowser
+    - [x] postgres
+    - [x] timeshift
+    - [x] timewarrior
+    - [x] taskwarrior
+    - [x] thunderbird
+    - [x] virtualbox
+- Save
+    - [ ] terminator settings
+    - [ ] conky settings
+    - [ ] gnome extension settings
+    - [ ] combine ~/notes and put in ~/Dropbox/notes -> symlink to ~/
+    - [ ] set up Sublime-text packages
+    - [ ] install fonts through seperate role
+    - [ ] split up lightdm and lightdm-webkit2-greeter into 2 roles
+- Manual installation?
+    - [ ] teamviewer (_incomplete - facing issues installing on popos_)
+- Look for (may need manual install/may not be needed anymore)
+    - [ ] openvpn
+    - [ ] caffeine
+    - [ ] trello
+    - [ ] compiz
+    - [ ] gdb
+    - [ ] gh (github cli)
+    - [ ] gnumeric
+    - [ ] logrotate
+    - [ ] wireshark <https://github.com/ymajik/ansible-role-wireshark>
